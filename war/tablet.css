@@ -1,0 +1,39 @@
+#loading {
+  width: 100%;
+  height: 100%;
+  background: #c3c3c3 url(images/loading7.png);
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  background-position:center; 
+}
+
+#root {
+  background: #ddd url(images/bg0.png) 0 0 no-repeat;
+  width: 1024px;
+  height: 600px;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+
+.b_textBox, .b_textBoxBlank {
+  padding: 100px 0 0 250px;
+}
+
+.b_textBox .text {
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing:1px;
+  color: #111;
+  width: 500px;
+}
+
+.b_textBoxBlank .text {
+  padding: 10px;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: italic;
+  letter-spacing:1px;
+  color: #999;
+  width: 500px;
+}

@@ -1,0 +1,144 @@
+.b_keyboard {
+  width: 620px;
+  height: 160px;
+  background: url(images/keyboard-bg.png) no-repeat;
+  padding: 50px 50px 50px 40px;
+  z-index: 200;
+}
+
+.b_key {
+  width: 44px;
+  height: 52px;
+  float: left;
+  cursor: pointer;
+}
+
+.b_key_shift {
+  width: 44px;
+  height: 52px;
+  float: left;
+  cursor: pointer;
+}
+
+.b_key_bs {
+  width: 68px;
+  height: 52px;
+  float: left;
+  cursor: pointer;
+}
+
+.b_key_en,.b_key_done {
+  width: 102px;
+  height: 52px;
+  float: left;
+  cursor: pointer;
+}
+
+.b_key_space {
+  width: 234px;
+  height: 52px;
+  float: left;
+  cursor: pointer;
+}
+
+.b_key_emp {
+  width: 22px;
+  height: 52px;
+  float: left;
+}
+
+.b_key_emp2 {
+  width: 44px;
+  height: 52px;
+  float: left;
+}
+
+.b_key_special0 {
+  width: 10px;
+  height: 52px;
+  float: left;
+}
+
+.b_key_special1 {
+  width: 40px;
+  height: 52px;
+  float: left;
+}
+
+.b_key_special2 {
+  width: 46px;
+  height: 52px;
+  float: left;
+}
+
+.b_keyboardNumeric {
+  width: 263px;
+  height: 260px;
+  background: url(images/keyboard_n_bg.png) no-repeat;
+  padding: 43px 0px 20px 40px;
+  z-index: 200;
+}
+
+.b_tpAA {
+  background: url(images/topC-10.png) no-repeat;
+}
+
+.b_tpAB {
+  background: url(images/topC-11.png);
+}
+
+.b_tpAC {
+  background: url(images/topC-12.png);
+}
+
+.b_tpBA {
+  background: url(images/topC-10.png);
+}
+
+.b_tpBB {
+  background: url(images/topC-11.png);
+}
+
+.b_tpBC {
+  background: url(images/topC-12.png);
+}
+
+.b_tpCA {
+  background: url(images/topC-20.png);
+}
+
+.b_tpCB {
+  background: url(images/topC-21.png);
+}
+
+.b_tpCC {
+  background: url(images/topC-22.png);
+}
+
+.b_tpDA {
+  background: url(images/topC-DA.png);
+}
+
+.b_tpDB {
+  background: url(images/topC-DB.png);
+}
+
+.b_tpDC {
+  background: url(images/topC-DC.png);
+}
+
+.b_tpDD {
+  background: url(images/topC-DD.png);
+}
+
+.b_tpDE {
+  background: url(images/topC-DE.png);
+}
+
+.b_tpDF {
+  background: url(images/topC-DF.png);
+}
+
+.b_tpDG {
+  background: url(images/topC-DG.png);
+}

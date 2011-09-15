@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module rename-to='ywebb'>
+
+	<inherits name='com.google.gwt.user.User' />
+
+	<inherits name="org.adamtacy.GWTEffects" />
+	<inherits name="com.google.gwt.inject.Inject" />
+	<inherits name="com.ywebb.component.Component" />
+
+	<!-- Specify the app entry point class.                         -->
+	<entry-point class='com.ywebb.tablet.client.TabletEntryPoint' />
+
+	<!-- Specify the paths for translatable code                    -->
+	<source path='client' />
+	<source path='shared' />
+
+</module>

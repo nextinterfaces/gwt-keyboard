@@ -1,0 +1,26 @@
+<module>
+	<inherits name='com.google.gwt.user.User'/>
+	<inherits name="com.google.gwt.i18n.I18N"/>	
+	
+	<replace-with class="org.adamtacy.client.ui.effects.impl.browsers.EffectImplementationOpera">
+		<when-type-is class="org.adamtacy.client.ui.effects.impl.browsers.EffectImplementationStandard"/>
+		<when-property-is name="user.agent" value="opera"/>
+	</replace-with>
+	
+	<replace-with class="org.adamtacy.client.ui.effects.impl.browsers.EffectImplementationIE6">
+		<when-type-is class="org.adamtacy.client.ui.effects.impl.browsers.EffectImplementationStandard"/>
+		<any>
+			<when-property-is name="user.agent" value="ie6"/>
+			<when-property-is name="user.agent" value="ie6"/>
+		</any>
+	</replace-with>
+	
+	<replace-with class="org.adamtacy.client.ui.effects.impl.css.StyleSheetImplementationIE6">
+		<when-type-is class="org.adamtacy.client.ui.effects.impl.css.StyleSheetImplementationStandard"/>
+		<any>
+				<when-property-is name="user.agent" value="ie6"/>
+				<when-property-is name="user.agent" value="ie8"/>
+		</any>
+	</replace-with>
+	
+</module>
