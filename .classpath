@@ -4,9 +4,12 @@
 	<classpathentry kind="src" path="src-gwtfx"/>
 	<classpathentry kind="src" path="src-common"/>
 	<classpathentry kind="con" path="com.google.gwt.eclipse.core.GWT_CONTAINER"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.launching.macosx.MacOSXType/JVM 1.6.0"/>
-	<classpathentry kind="lib" path="war/WEB-INF/lib/aopalliance.jar"/>
-	<classpathentry kind="lib" path="war/WEB-INF/lib/gin-1.0.jar"/>
-	<classpathentry kind="lib" path="war/WEB-INF/lib/guice-2.0.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="lib" path="war/WEB-INF/gwt.addons/aopalliance.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/gwt.addons/gin-1.5-post-gwt-2.2.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/gwt.addons/gin-1.5-pre-gwt-2.2.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/gwt.addons/guice-assistedinject-snapshot.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/gwt.addons/guice-snapshot.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/gwt.addons/javax.inject.jar"/>
 	<classpathentry kind="output" path="war/WEB-INF/classes"/>
 </classpath>

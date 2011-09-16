@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module rename-to='next'>
+
+	<inherits name='com.google.gwt.user.User' />
+	<inherits name="org.adamtacy.GWTEffects" />
+	<inherits name="com.google.gwt.inject.Inject" />
+	<inherits name="next.common.Ui" />
+
+	<entry-point class='next.keyboard.ui.Main' />
+
+	<source path='ui' />
+
+</module>
